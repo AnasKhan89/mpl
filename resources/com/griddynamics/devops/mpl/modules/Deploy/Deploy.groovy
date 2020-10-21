@@ -4,4 +4,4 @@
 
 //MPLModule('Openshift Deploy', CFG)
 
-sh '''mvn deploy'''
+sh '''mvn deploy -DskipTests'''
