@@ -9,5 +9,5 @@
 
 
 // def settings = CFG.'maven.settings_path' ? "-s '${CFG.'maven.settings_path'}'" : ''
-  sh """mvn clean compile"""
+ // sh """mvn clean compile"""
 
