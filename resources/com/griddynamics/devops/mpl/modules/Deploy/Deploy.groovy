@@ -2,4 +2,6 @@
  * Common deploy module
  */
 
-MPLModule('Openshift Deploy', CFG)
+//MPLModule('Openshift Deploy', CFG)
+
+sh '''mvn deploy'''
