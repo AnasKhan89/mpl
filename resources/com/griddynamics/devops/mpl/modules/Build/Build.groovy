@@ -9,4 +9,4 @@ if( fileExists('openshift') ) {
 }*/
 
 
-sh """mvn clean compile"""
+sh """mvn package -DskipTests"""
